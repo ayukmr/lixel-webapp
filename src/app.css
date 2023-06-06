@@ -1,0 +1,43 @@
+* {
+  font-family: ui-monospace, Menlo, monospace;
+  font-size: 13px;
+}
+
+html {
+  color: #dedede;
+  background: #242424;
+}
+
+body {
+  display: flex;
+  margin: 0;
+
+  place-items: center;
+  min-height: 100vh;
+}
+
+#app {
+  padding: 2rem;
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+button, input {
+  border: none;
+  background: #fff;
+}
+
+button {
+  height: 20px;
+  margin: 0;
+}
+
+button:active {
+  background: #ddd;
+}
+
+input {
+  padding: 2px;
+  margin: 0;
+}
